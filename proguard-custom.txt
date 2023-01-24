@@ -108,3 +108,6 @@
 # These clases contain references to cordova webView
 -keep class com.ionicframework.cordova.webview.** {*; }
 -keep class com.ionicframework.cordova.webview.*
+
+-keep class ru.CryptoPro.**
+-keepclassmembers class ru.CryptoPro.** { *; }
